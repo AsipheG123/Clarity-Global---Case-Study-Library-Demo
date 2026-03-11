@@ -15,12 +15,9 @@ export default function ContactPage() {
         <p className="mt-3 text-black/70">Send us a message and we’ll get back to you.</p>
 
         <form
-          name="contact"
           method="POST"
-          data-netlify="true"
           className="mt-10 space-y-5 rounded-2xl border border-black/10 bg-white/70 p-6 backdrop-blur"
         >
-          <input type="hidden" name="form-name" value="contact" />
 
           <div>
             <label className="text-sm font-medium">Full name</label>
@@ -61,7 +58,7 @@ export default function ContactPage() {
             Send message
           </button>
 
-          <p className="text-xs text-black/50">This form is processed by Netlify when deployed.</p>
+          <p className="text-xs text-black/50">This form is processed when deployed.</p>
         </form>
       </div>
     </main>
