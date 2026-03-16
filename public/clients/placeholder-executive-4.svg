@@ -1,0 +1,11 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="900" fill="#F3F1F1"/>
+  <rect x="60" y="60" width="1080" height="780" rx="32" fill="#FFFFFF" stroke="#D9D4D4" stroke-width="3"/>
+  <rect x="180" y="180" width="840" height="120" rx="24" fill="#E7E2E2"/>
+  <rect x="180" y="340" width="840" height="260" rx="24" fill="#EFEAEA"/>
+  <rect x="280" y="660" width="640" height="24" rx="12" fill="#D8D1D1"/>
+  <rect x="360" y="710" width="480" height="20" rx="10" fill="#E5DEDE"/>
+  <text x="600" y="790" text-anchor="middle" fill="#6F6666" font-size="36" font-family="Arial, Helvetica, sans-serif">
+    Branded event visual
+  </text>
+</svg>

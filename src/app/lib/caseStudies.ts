@@ -21,6 +21,24 @@ export type CaseStudyFull = {
   audiences: string[];
   services: string[];
   duration: string;
+  featuredVideo?: {
+  title: string;
+  embedUrl: string;
+  note: string;
+};
+
+gallery?: {
+  src: string;
+  alt: string;
+  caption: string;
+}[];
+
+outcomes?: string[];
+
+testimonialPlaceholder?: {
+  quote: string;
+  attribution: string;
+};
 
   challenge: string;
   approach: string;
@@ -40,7 +58,7 @@ export type CaseStudyFull = {
 // -----------------------------
 export const caseStudies: CaseStudyCard[] = [
   {
-    slug: "global-water-communications",
+    slug: "internal-development-communications",
     tag: "International Development Communications",
     title: "Clear communication for global water priorities",
     summary:
@@ -142,7 +160,7 @@ export const caseStudies: CaseStudyCard[] = [
 // -----------------------------
 export const caseStudiesFull: CaseStudyFull[] = [
   {
-    slug: "global-water-communications",
+    slug: "internal-development-communications",
     tag: "International Development Communications",
     title: "Clear communication for global water priorities",
     clientContext:
@@ -285,6 +303,46 @@ export const caseStudiesFull: CaseStudyFull[] = [
     audiences: ["Media", "Investors", "Partners", "Internal leadership"],
     services: ["Strategic advisory", "Speechwriting", "Editorial"],
     duration: "4–8 weeks (platform) + ongoing support",
+
+    featuredVideo: {
+  title: "Featured Leadership Content",
+  embedUrl: "https://www.youtube.com/embed/aTs7fD9ZB_Q",
+  note: "Representative embedded media showing how executive or thought-leadership video content could appear within a case study experience.",
+},
+
+gallery: [
+  {
+    src: "/clients/executive-speaker-1.jpg",
+    alt: "Executive speaker addressing an audience",
+    caption: "Representative event-stage imagery for leadership communications work.",
+  },
+  {
+    src: "/clients/conference-audience-1.jpg",
+    alt: "Conference audience during a leadership presentation",
+    caption: "Responsive gallery example for event and audience coverage.",
+  },
+  {
+    src: "/clients/interview-keynote-1.jpg",
+    alt: "Professional interview or keynote environment",
+    caption: "Example visual support for speechwriting and thought-leadership work.",
+  },
+  {
+  src: "/clients/branded-event-1.jpg",
+  alt: "Branded leadership event or presentation setting",
+  caption: "Additional representative imagery for executive visibility and thought-leadership presentation.",
+  },
+],
+
+outcomes: [
+  "Supports clearer presentation of executive communication work in a digital format.",
+  "Shows how thought-leadership content can be presented beyond static text alone.",
+  "Creates space for richer campaign storytelling through video and supporting visuals.",
+],
+
+testimonialPlaceholder: {
+  quote: "Client testimonial or executive feedback could appear here to reinforce credibility, outcomes, and audience impact.",
+  attribution: "Placeholder for future client quote",
+},
 
     challenge:
       "Leaders had fragmented inputs across teams, leading to unclear claims, inconsistent tone, and late-stage approval churn.",

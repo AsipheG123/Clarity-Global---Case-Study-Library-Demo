@@ -1,0 +1,11 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="900" fill="#F3F1F1"/>
+  <rect x="60" y="60" width="1080" height="780" rx="32" fill="#FFFFFF" stroke="#D9D4D4" stroke-width="3"/>
+  <circle cx="600" cy="330" r="95" fill="#E7E2E2"/>
+  <rect x="430" y="450" width="340" height="150" rx="24" fill="#E7E2E2"/>
+  <rect x="350" y="660" width="500" height="24" rx="12" fill="#D8D1D1"/>
+  <rect x="420" y="710" width="360" height="20" rx="10" fill="#E5DEDE"/>
+  <text x="600" y="790" text-anchor="middle" fill="#6F6666" font-size="36" font-family="Arial, Helvetica, sans-serif">
+    Executive speaker visual
+  </text>
+</svg>

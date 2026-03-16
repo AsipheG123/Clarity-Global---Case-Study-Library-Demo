@@ -160,6 +160,113 @@ export default async function CaseStudyPage({ params }: Props) {
           </section>
         </div>
 
+{cs.featuredVideo && (
+  <section className="mt-10 rounded-2xl border border-black/10 bg-white/80 p-8 shadow-sm backdrop-blur">
+    <div className="max-w-3xl">
+      <p className="text-xs font-medium uppercase tracking-wide text-black/50">
+        Featured media
+      </p>
+      <h2 className="mt-2 text-2xl font-semibold tracking-tight">
+        {cs.featuredVideo.title}
+      </h2>
+      <p className="mt-3 text-sm leading-6 text-black/65">
+        {cs.featuredVideo.note}
+      </p>
+    </div>
+
+    <div className="mt-6 overflow-hidden rounded-2xl border border-black/10 bg-black">
+      <div className="aspect-video w-full">
+        <iframe
+          src={cs.featuredVideo.embedUrl}
+          title={cs.featuredVideo.title}
+          className="h-full w-full"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerPolicy="strict-origin-when-cross-origin"
+          allowFullScreen
+        />
+      </div>
+    </div>
+  </section>
+)}
+
+{cs.gallery && cs.gallery.length > 0 && (
+  <section className="mt-10 rounded-2xl border border-black/10 bg-white/80 p-8 shadow-sm backdrop-blur">
+    <div className="max-w-3xl">
+      <p className="text-xs font-medium uppercase tracking-wide text-black/50">
+        Visual gallery
+      </p>
+      <h2 className="mt-2 text-2xl font-semibold tracking-tight">
+        Representative visual treatment
+      </h2>
+      <p className="mt-3 text-sm leading-6 text-black/65">
+        Example imagery showing how speechwriting and thought-leadership work can
+        be supported with richer, responsive visuals.
+      </p>
+    </div>
+
+    <div className="mt-6 grid gap-4 md:grid-cols-2">
+      {cs.gallery.map((item) => (
+        <figure
+          key={item.src}
+          className="overflow-hidden rounded-2xl border border-black/10 bg-white"
+        >
+          <div className="relative aspect-[4/3] w-full bg-black/5">
+            <Image
+              src={item.src}
+              alt={item.alt}
+              fill
+              className="object-cover"
+            />
+          </div>
+          <figcaption className="p-4 text-sm leading-6 text-black/70">
+            {item.caption}
+          </figcaption>
+        </figure>
+      ))}
+    </div>
+  </section>
+)}
+
+{cs.outcomes && cs.outcomes.length > 0 && (
+  <section className="mt-10 rounded-2xl border border-black/10 bg-white/80 p-8 shadow-sm backdrop-blur">
+    <div className="max-w-3xl">
+      <p className="text-xs font-medium uppercase tracking-wide text-black/50">
+        Outcomes
+      </p>
+      <h2 className="mt-2 text-2xl font-semibold tracking-tight">
+        How this work can be presented digitally
+      </h2>
+    </div>
+
+    <div className="mt-6 grid gap-4 md:grid-cols-3">
+      {cs.outcomes.map((outcome) => (
+        <div
+          key={outcome}
+          className="rounded-2xl border border-black/10 bg-white/70 p-5"
+        >
+          <p className="text-sm leading-6 text-black/80">{outcome}</p>
+        </div>
+      ))}
+    </div>
+  </section>
+)}
+
+{cs.testimonialPlaceholder && (
+  <section className="mt-10 rounded-2xl border border-black/10 bg-white/80 p-8 shadow-sm backdrop-blur">
+    <p className="text-xs font-medium uppercase tracking-wide text-black/50">
+      Testimonial placeholder
+    </p>
+
+    <blockquote className="mt-4 max-w-3xl text-2xl font-medium tracking-tight text-black/85">
+      “{cs.testimonialPlaceholder.quote}”
+    </blockquote>
+
+    <p className="mt-4 text-sm text-black/55">
+      {cs.testimonialPlaceholder.attribution}
+    </p>
+  </section>
+)}
+
         <section className="mt-10 rounded-2xl border border-black/10 bg-white/80 p-8 shadow-sm backdrop-blur">
           <h2 className="text-center text-3xl font-medium tracking-tight text-red-500 md:text-5xl">
             Some of our clients

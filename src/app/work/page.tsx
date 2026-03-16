@@ -170,6 +170,11 @@ lastY.current = window.scrollY;
                 <div className="flex items-start justify-between gap-4">
                   <div>
                     <p className="text-xs font-medium text-black/60">{cs.tag}</p>
+                    {cs.slug === "executive-speeches-proof" && (
+  <span className="mt-2 inline-flex w-fit rounded-full border border-black/10 bg-black/5 px-3 py-1 text-[11px] font-medium uppercase tracking-wide text-black/70">
+    Rich media demo
+  </span>
+)}
                     <p className="mt-2 text-base font-semibold">{cs.title}</p>
                     <p className="mt-2 text-sm text-black/60">{cs.summary}</p>
                     <ul className="mt-3 space-y-1 text-sm text-black/60">
