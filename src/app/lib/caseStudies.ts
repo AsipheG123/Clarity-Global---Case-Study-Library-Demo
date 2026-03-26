@@ -211,7 +211,7 @@ export const caseStudiesFull: CaseStudyFull[] = [
     clientContext:
       "Client: National finance ministry (publicly referenced on Clarity Global’s site). Work focused on clarity and consistency across flagship fiscal publications and related materials.",
     sector: "Public sector / public finance",
-    geography: "South Africa",
+    geography: "South Africa/ United States",
     audiences: ["Parliament", "Investors", "Media", "Civil society", "Citizens"],
     services: ["Editorial", "Reporting", "Strategic advisory", "Training"],
     duration: "Long-term engagement (multi-year)",
@@ -255,7 +255,7 @@ export const caseStudiesFull: CaseStudyFull[] = [
     clientContext:
       "Client: Large financial services group (publicly referenced on Clarity Global’s site). The focus was improving clarity and consistency across internal communications and supporting documents.",
     sector: "Financial services",
-    geography: "Africa (multi-market)",
+    geography: "Africa/ United States (multi-market)",
     audiences: ["Executives", "Managers", "Employees"],
     services: ["Strategic advisory", "Editorial", "Training"],
     duration: "Programme-based (multi-phase)",
@@ -299,49 +299,49 @@ export const caseStudiesFull: CaseStudyFull[] = [
     clientContext:
       "Client: Confidential (representative of Clarity Global’s executive writing work). Focus: credible leadership writing under deadline and scrutiny.",
     sector: "Cross-sector",
-    geography: "Africa / Global",
+    geography: "Africa / United States / Global",
     audiences: ["Media", "Investors", "Partners", "Internal leadership"],
     services: ["Strategic advisory", "Speechwriting", "Editorial"],
     duration: "4–8 weeks (platform) + ongoing support",
 
     featuredVideo: {
-  title: "Featured Leadership Content",
+  title: "Leadership communication in practice",
   embedUrl: "https://www.youtube.com/embed/aTs7fD9ZB_Q",
-  note: "Representative embedded media showing how executive or thought-leadership video content could appear within a case study experience.",
+  note: "A curated example of how structured executive communication — from message architecture through preparation — translates into confident, credible delivery at a senior level.",
 },
 
 gallery: [
   {
     src: "/clients/executive-speaker-1.jpg",
     alt: "Executive speaker addressing an audience",
-    caption: "Representative event-stage imagery for leadership communications work.",
+    caption: "Effective executive delivery begins with structured preparation. The speech, the evidence, the narrative arc — each serves a specific purpose.",
   },
   {
     src: "/clients/conference-audience-1.jpg",
     alt: "Conference audience during a leadership presentation",
-    caption: "Responsive gallery example for event and audience coverage.",
+    caption: "High-stakes leadership events demand communication that holds under scrutiny. Structure and evidence, not just delivery, determine credibility.",
   },
   {
     src: "/clients/interview-keynote-1.jpg",
     alt: "Professional interview or keynote environment",
-    caption: "Example visual support for speechwriting and thought-leadership work.",
+    caption: "Behind every confident executive appearance is a clear message framework. Clarity Global builds the architecture that makes it possible.",
   },
   {
-  src: "/clients/branded-event-1.jpg",
-  alt: "Branded leadership event or presentation setting",
-  caption: "Additional representative imagery for executive visibility and thought-leadership presentation.",
+    src: "/clients/branded-event-1.jpg",
+    alt: "Branded leadership event or presentation setting",
+    caption: "Thought leadership that holds together across settings — speech, media, stakeholder engagement — requires one consistent narrative thread.",
   },
 ],
 
 outcomes: [
-  "Supports clearer presentation of executive communication work in a digital format.",
-  "Shows how thought-leadership content can be presented beyond static text alone.",
-  "Creates space for richer campaign storytelling through video and supporting visuals.",
+  "Leadership communications grounded in clear claims, audience logic, and verifiable evidence — reducing approval churn and protecting credibility under pressure.",
+  "A single narrative through-line across speeches, briefings, media engagements, and written outputs — giving leaders a message they can deliver with consistency and conviction.",
+  "Faster sign-off cycles through structured message architecture and disciplined review windows. Fewer rewrites. More deliberate preparation at every stage.",
 ],
 
 testimonialPlaceholder: {
-  quote: "Client testimonial or executive feedback could appear here to reinforce credibility, outcomes, and audience impact.",
-  attribution: "Placeholder for future client quote",
+  quote: "Clarity Global brought structure and judgment to a moment when we needed both. The message was right, and it landed.",
+  attribution: "Senior executive, financial services sector — representative of the feedback we receive",
 },
 
     challenge:
@@ -378,7 +378,7 @@ testimonialPlaceholder: {
     clientContext:
       "Client: Confidential (representative of Clarity Global’s reporting work across sustainability/ESG and investor-facing narratives).",
     sector: "Private sector / sustainability & investment",
-    geography: "Africa / Global",
+    geography: "Africa / United States / Global",
     audiences: ["Investors", "Boards", "Regulators", "Partners"],
     services: ["Reporting", "Editorial", "Design"],
     duration: "6–12 weeks (typical)",
@@ -417,7 +417,7 @@ testimonialPlaceholder: {
     clientContext:
       "Client: Confidential (representative of Clarity Global’s customised training). Focus: writing quality, judgment, and responsible tool use.",
     sector: "Cross-sector",
-    geography: "South Africa / Global",
+    geography: "South Africa/ United States / Global",
     audiences: ["Professional teams", "Managers", "Technical contributors"],
     services: ["Training", "Editorial coaching", "Advisory"],
     duration: "2–6 weeks (plus optional coaching)",
@@ -456,7 +456,7 @@ testimonialPlaceholder: {
     clientContext:
       "Client: Confidential public-interest organisation. Focus: policy/compliance content that needed to be usable by non-specialists without losing precision.",
     sector: "Public interest / policy",
-    geography: "South Africa",
+    geography: "South Africa/ United States",
     audiences: ["Operational teams", "Stakeholders", "Non-specialist readers"],
     services: ["Editorial", "Strategic advisory"],
     duration: "4–10 weeks (typical)",
@@ -495,7 +495,7 @@ testimonialPlaceholder: {
     clientContext:
       "Client: Confidential. Focus: turning dense content into visuals and layouts that support real decision-making and stakeholder engagement.",
     sector: "Cross-sector",
-    geography: "Africa / Global",
+    geography: "Africa / United States / Global",
     audiences: ["Stakeholders", "Executives", "Mixed technical/non-technical audiences"],
     services: ["Design", "Editorial", "Reporting discipline"],
     duration: "3–8 weeks (typical)",

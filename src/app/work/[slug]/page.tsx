@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getCaseStudyFull } from "@/app/lib/caseStudies";
+import ExecutiveSpeechesDetail from "@/app/components/executive-speeches/ExecutiveSpeechesDetail";
 
 type Props = {
   params: Promise<{ slug: string }>;
@@ -87,6 +88,11 @@ export default async function CaseStudyPage({ params }: Props) {
       { name: "Discovery", src: "/clients/Discovery_Logo.png" },
       { name: "Standard Bank", src: "/clients/StandardBank_Logo.png" },
     ];
+
+  // Editorial redesign for the executive-speeches-proof case study
+  if (slug === "executive-speeches-proof") {
+    return <ExecutiveSpeechesDetail cs={cs} />;
+  }
 
   return (
     <main className="min-h-screen bg-transparent text-black">
