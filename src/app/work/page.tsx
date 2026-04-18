@@ -611,8 +611,8 @@ export default function WorkPage() {
         </section>
 
         {/* Footer */}
-        <footer className="mt-16 border-t border-black/8 py-8 text-xs text-black/35">
-          © {new Date().getFullYear()} Clarity Global — Work Archive
+        <footer className="mt-16 border-t border-black/8 py-8 text-center text-xs text-black/35">
+          © {new Date().getFullYear()} Clarity Global — Work Archive. Built by AutoGrowth Agency.
         </footer>
       </div>
     </main>
